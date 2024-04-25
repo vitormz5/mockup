@@ -16,6 +16,28 @@ O **App Casa Inteligente** é um aplicativo desenvolvido em Flutter que permite 
 - **Informações de Consumo:** Acesse dados de consumo de energia para dispositivos integrados, permitindo um gerenciamento mais eficiente dos recursos da casa.
 - **Rotinas Programadas:** Crie rotinas automáticas para ambientes ou dispositivos, como programar horários de ativação ou desativação para otimizar seu dia a dia.
 
+## Tela 1
+
+- Configurações do wi-fi.
+- Acessar ajuste de Temperatura da residência.
+- Controle de volume e músicas em dispositivos eletrônicos.
+- Acessar controle das luzes.
+- Controlar televisões compatíveis (como um controle remoto).
+- Adicionar novos dispositivos compatíveis com o app.
+- Separação dos dispostivos por cômodo, podendo criar automações.
+
+## Tela 2
+
+- Acessar um cômodo específico para ajustar as preferências.
+- Controle das luzes, podendo acender, apagar ou controlar intensidade.
+- Controlar humidificador de ar.
+- Controlar temperatura do cômodo.
+- Ligar / Desligar TV.
+
+
+
+**Demais informações que não estão presente no projeto, estão em processo de desenvolvimento**
+
 ## Pré-requisitos
 
 - [Flutter](https://flutter.dev/) SDK e ferramentas.
