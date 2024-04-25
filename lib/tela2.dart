@@ -32,154 +32,246 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             Container(
-              color: Colors.black26,
+              color: Colors.white,
               height: 100,
-              // ignore: prefer_const_constructors
-              child: Row(
-                children: [Text('Bem vindo de volta, Vitor!')],
-              ),
-            ),
-            Container(
-              color: Colors.black26,
-              height: 100,
-              child: Row(
-                children: [Text('Dispositivos e configurações')],
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          'Welcome back,',
+                          style: TextStyle(fontSize: 25),
+                        ),
+                        Text(
+                          'Vitor!',
+                          style: TextStyle(fontSize: 23),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
             Container(
               color: Colors.white,
-              height: 75,
-              child: Row(
-                children: [
-                  Container(
-                    color: Colors.black,
-                    width: 72,
-                    height: 75,
-                    child: Row(
-                      children: [
-                        Text(
-                          "Wi-fi",
-                          style: TextStyle(color: Colors.white),
-                        )
-                      ],
+              height: 50,
+              child: Padding(
+                padding: const EdgeInsets.only(left: 20.0),
+                child: Row(
+                  children: [
+                    Text(
+                      'Devices & SetUp',
+                      style: TextStyle(color: Colors.green, fontSize: 15),
                     ),
-                  ),
-                  Container(
-                    color: Colors.black,
-                    width: 72,
-                    height: 75,
-                    child: Row(
-                      children: [
-                        Text(
-                          "Temp",
-                          style: TextStyle(color: Colors.white),
-                        )
-                      ],
-                    ),
-                  ),
-                  Container(
-                    color: Colors.black,
-                    width: 72,
-                    height: 75,
-                    child: Row(
-                      children: [
-                        Text(
-                          "Sound",
-                          style: TextStyle(color: Colors.white),
-                        )
-                      ],
-                    ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             Container(
               color: Colors.white,
-              height: 100,
+              height: 50,
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
+                  // Botão Wi-Fi
                   Container(
-                    color: Colors.redAccent,
-                    height: 75,
-                    child: Row(
-                      children: [
-                        Text(
-                          "Light",
-                          style: TextStyle(color: Colors.white),
-                        )
-                      ],
-                    ),
-                  ),
-                  Container(
-                    color: Colors.black,
-                    height: 75,
-                    child: Row(
-                      children: [
-                        Text(
-                          "TV",
-                          style: TextStyle(color: Colors.white),
-                        )
-                      ],
-                    ),
-                  ),
-                  Container(
-                    color: Colors.black,
-                    height: 75,
-                    child: Row(
-                      children: [
-                        Text(
-                          'Add Dispostivo',
-                          style: TextStyle(color: Colors.white),
-                        )
-                      ],
-                    ),
-                  )
-                ],
+              decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(4),
+              color: Colors.black87,
               ),
-            ),
-            Text(
-              'Rooms',
-              style: TextStyle(color: Colors.green),
-            ),
-            Container(
-              color: Colors.black26,
-              height: 80,
-              child: Row(
-                children: [
-                  Text("Quarto"),
-                  Icon(Icons.arrow_forward_ios),
-                  Icon(
-                    Icons.bed,
-                    size: 50,
-                  )
-                ],
-              ),
-            ),
-            Container(
-              color: Colors.black26,
-              height: 80,
-              child: Row(
-                children: [
-                  Text("Cozinha"),
-                  Icon(Icons.arrow_forward_ios),
-                  Image.asset(
-                    'assets/pia.png',
-                    width: 50,
+                    width: 100,
                     height: 50,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Text(
+                          'Wi-fi',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        SizedBox(width: 8),
+                        Icon(
+                          Icons.wifi,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                  ),
+                  // Botão Temp
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(4),
+                      color: Colors.black87,
+                    ),
+                    width: 100,
+                    height: 50,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Text(
+                          'Temp',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        SizedBox(width: 8),
+                        Icon(
+                          Icons.thermostat,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                  ),
+                  // Botão Sound
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(4),
+                      color: Colors.black87,
+                    ),
+                    width: 100,
+                    height: 50,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Text(
+                          'Sound',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        SizedBox(width: 8),
+                        Icon(
+                          Icons.volume_up,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
             ),
             Container(
-              color: Colors.black26,
+              color: Colors.white,
               height: 80,
               child: Row(
-                children: [Text('Banheiro'),
-                  Icon(Icons.arrow_forward_ios),
-                  Icon(Icons.shower,size: 50,)],
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  // Botão Light
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(4),
+                      color: Colors.redAccent,
+                    ),
+                    width: 100,
+                    height: 50,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Text(
+                          'Light',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        SizedBox(width: 8),
+                        Icon(
+                          Icons.lightbulb,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                  ),
+                  // Botão TV
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(4),
+                      color: Colors.black87,
+                    ),
+                    width: 100,
+                    height: 50,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Text(
+                          'TV',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        SizedBox(width: 8),
+                        Icon(
+                          Icons.tv,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    color: Colors.white,
+                    height: 50,
+                    width: 100,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.add,
+                          size: 45,
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.only(bottom:20,left: 20.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Text(
+                    'Rooms',
+                    style: TextStyle(color: Colors.green,fontSize: 15),
+                  ),
+                ],
+              ),
+            ),
+            _buildRoomContainer('Bedroom', Icons.bed),
+            _buildRoomContainer('Kitchen', Icons.countertops),
+            _buildRoomContainer('Bathroom', Icons.shower),
           ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildRoomContainer(String roomName, IconData icon) {
+    return Padding(
+      padding: const EdgeInsets.only(left: 20.0,right: 20,bottom: 20),
+      child: Container(
+      decoration: BoxDecoration(
+      borderRadius: BorderRadius.circular(6),
+      color: Colors.black87,
+      ),
+        height: 100,
+        child: Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Row(
+                children: [
+                  Text(
+                    roomName,
+                    style: TextStyle(fontSize: 25, color: Colors.white),
+                  ),
+                  Icon(
+                    Icons.arrow_forward_ios,
+                    color: Colors.white,
+                  ),
+                ],
+              ),
+              Icon(
+                icon,
+                size: 90,
+                color: Colors.grey,
+              ),
+            ],
+          ),
         ),
       ),
     );

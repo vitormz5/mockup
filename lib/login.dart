@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(LoginScreen());
 }
-
 class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -34,11 +32,9 @@ class LoginScreen extends StatelessWidget {
     );
   }
 }
-
 class LoginBody extends StatelessWidget {
   final double buttonWidth = 250.0;
   final double buttonHeight = 55.0;
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -65,7 +61,7 @@ class LoginBody extends StatelessWidget {
             height: buttonHeight,
             child: ElevatedButton(
               onPressed: () {
-                // Adicione a função de login aqui
+// Adicione a função de login aqui
               },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -85,7 +81,7 @@ class LoginBody extends StatelessWidget {
             height: buttonHeight,
             child: ElevatedButton(
               onPressed: () {
-                // Adicione a função de registro aqui
+// Adicione a função de registro aqui
               },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
