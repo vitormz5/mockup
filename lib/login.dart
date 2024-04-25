@@ -16,7 +16,7 @@ class LoginScreen extends StatelessWidget {
               left: 0,
               right: 0,
               child: SizedBox(
-                height: MediaQuery.of(context).size.height * 0.5, // Ajusta a altura da imagem para cobrir metade da tela
+                height: MediaQuery.of(context).size.height * 0.5, // Ajustar a altura da imagem para cobrir metade da tela
                 child: Image.asset(
                   'assets/salaestar2.png',
                   fit: BoxFit.cover,
@@ -44,24 +44,24 @@ class LoginBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           CircleAvatar(
-            radius: 60.0, // Aumenta o tamanho do avatar
+            radius: 60.0,
             backgroundImage: AssetImage('assets/foto.png'),
           ),
           SizedBox(height: 20.0),
           Text(
-            'Bem-vindo!',
+            'Welcome back home!',
             style: TextStyle(
-              fontSize: 36.0, // Aumenta o tamanho do texto
+              fontSize: 36.0,
               fontWeight: FontWeight.bold,
             ),
           ),
-          SizedBox(height: 250.0), // Ajustei o espaçamento entre o texto e os botões
+          SizedBox(height: 250.0),
           SizedBox(
             width: buttonWidth,
             height: buttonHeight,
             child: ElevatedButton(
               onPressed: () {
-// Adicione a função de login aqui
+
               },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -75,13 +75,13 @@ class LoginBody extends StatelessWidget {
               child: Text('Login', style: TextStyle(fontSize: 24)),
             ),
           ),
-          SizedBox(height: 20.0), // Ajustei o espaçamento entre os botões
+          SizedBox(height: 20.0),
           SizedBox(
             width: buttonWidth,
             height: buttonHeight,
             child: ElevatedButton(
               onPressed: () {
-// Adicione a função de registro aqui
+
               },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -92,7 +92,7 @@ class LoginBody extends StatelessWidget {
                   ),
                 ),
               ),
-              child: Text('Registrar', style: TextStyle(fontSize: 24)),
+              child: Text('Register', style: TextStyle(fontSize: 24)),
             ),
           ),
         ],
