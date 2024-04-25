@@ -1,20 +1,20 @@
-# Aplicativo Casa Inteligente
+# Casa Inteligente App
 
 ![Logo](https://img.freepik.com/vetores-gratis/aplicativo-para-casa-inteligente_23-2148628096.jpg?w=1380&t=st=1714006889~exp=1714007489~hmac=45a0916df9075faebfaa77535bf0c5c02fe5f617fab9c00a9d5ff5a0e46e5594)
 
-O **Casa Inteligente App** é um aplicativo desenvolvido em Flutter que permite controlar e obter informações de uma casa inteligente. Ele oferece funcionalidades para controlar wi-fi, temperatura, som, luz e diversos eletrodomésticos em diferentes ambientes da casa. Além disso, é possível compartilhar a casa com outros usuários para uma experiência de uso compartilhada.
+O **Casa Inteligente App** é um aplicativo desenvolvido em Flutter que permite controlar e gerenciar uma casa inteligente, oferecendo uma experiência integrada para usuários que desejam automatizar e otimizar seu ambiente doméstico. O aplicativo é intuitivo e fácil de usar, possibilitando o controle de uma variedade de dispositivos e sistemas domésticos.
 
-## Funcionalidades
+## Funcionalidades Principais
 
-- Controle de ambientes com grupos de dispositivos.
-- Gerenciamento de usuários com autenticação segura.
-- Compartilhamento de casas entre usuários para uso compartilhado.
-- Controle de luz, incluindo intensidade e cor.
-- Controle de temperatura com ar-condicionados e aquecedores.
-- Controle de aparelhos de som, como músicas, canais e volume.
-- Integração com dispositivos inteligentes via Wi-Fi.
-- Obtenção de informações de consumo, como tomadas inteligentes.
-- Criação de rotinas programadas para ambientes ou dispositivos.
+- **Controle de Ambientes:** Crie e gerencie ambientes na sua casa inteligente, agrupando dispositivos de acordo com cada espaço.
+- **Gerenciamento de Usuários:** Cadastre-se com e-mail e senha e personalize seu perfil de usuário. É possível editar informações cadastradas e adicionar fotos de perfil.
+- **Compartilhamento de Casa:** Compartilhe o controle da casa com outros usuários, permitindo que familiares ou moradores usem contas separadas para acessar os ambientes e dispositivos.
+- **Controle de Luzes:** Ligue ou desligue as luzes, ajuste a intensidade e altere as cores de acordo com a sua preferência ou com o ambiente desejado.
+- **Controle de Temperatura:** Ajuste a temperatura da casa por meio de ar-condicionados e aquecedores, mantendo o ambiente confortável em todas as estações.
+- **Controle de Áudio e Vídeo:** Controle aparelhos de som e vídeo, incluindo seleção de músicas, canais, volume, e ligar ou desligar dispositivos.
+- **Integração com Dispositivos:** Conecte e controle dispositivos compatíveis com o aplicativo por meio de Wi-Fi, como tomadas inteligentes e outros eletrodomésticos.
+- **Informações de Consumo:** Acesse dados de consumo de energia para dispositivos integrados, permitindo um gerenciamento mais eficiente dos recursos da casa.
+- **Rotinas Programadas:** Crie rotinas automáticas para ambientes ou dispositivos, como programar horários de ativação ou desativação para otimizar seu dia a dia.
 
 ## Pré-requisitos
 
