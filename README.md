@@ -1,18 +1,30 @@
-SmartHome App
+# Casa Inteligente App
 
-O SmartHome App é um aplicativo Flutter que permite controlar e obter informações sobre sua casa inteligente. Você pode gerenciar vários aspectos, como Wi-Fi, temperatura, som, luz e eletrodomésticos. O aplicativo permite controlar diversos ambientes e criar grupos de dispositivos para cada ambiente.
+![Logo](path/to/logo.png)
 
-Funcionalidades
-Usuários: Crie contas para acessar o aplicativo com e-mail e senha.
-Edição de Usuários: Edite as informações cadastradas dos usuários.
-Compartilhamento de Casas: Compartilhe sua casa com outros usuários para usar contas diferentes em uma mesma casa.
-Ambientes: Crie ambientes (grupos de dispositivos) para organizar seus dispositivos.
-Adicionar Dispositivos: Registre novos dispositivos compatíveis com o aplicativo.
-Controle de Luz: Controle a iluminação, incluindo intensidade e cor.
-Controle de Temperatura: Ajuste a temperatura da casa com ar-condicionados e aquecedores.
-Integração com Aparelhos: Controle ações como músicas, canais, volume, ligar/desligar dispositivos.
-Monitoramento de Consumo: Obtenha informações de consumo, como em tomadas inteligentes integradas ao aplicativo.
-Rotinas Programadas: Crie rotinas para cômodos ou aparelhos.
-Tecnologias Usadas
-Flutter: Plataforma para desenvolvimento do aplicativo.
-Firebase: Para gerenciamento de autenticação e dados em tempo real.
+O **Casa Inteligente App** é um aplicativo desenvolvido em Flutter que permite controlar e obter informações de uma casa inteligente. Ele oferece funcionalidades para controlar wi-fi, temperatura, som, luz e diversos eletrodomésticos em diferentes ambientes da casa. Além disso, é possível compartilhar a casa com outros usuários para uma experiência de uso compartilhada.
+
+## Funcionalidades
+
+- Controle de ambientes com grupos de dispositivos.
+- Gerenciamento de usuários com autenticação segura.
+- Compartilhamento de casas entre usuários para uso compartilhado.
+- Controle de luz, incluindo intensidade e cor.
+- Controle de temperatura com ar-condicionados e aquecedores.
+- Controle de aparelhos de som, como músicas, canais e volume.
+- Integração com dispositivos inteligentes via Wi-Fi.
+- Obtenção de informações de consumo, como tomadas inteligentes.
+- Criação de rotinas programadas para ambientes ou dispositivos.
+
+## Pré-requisitos
+
+- [Flutter](https://flutter.dev/) SDK e ferramentas.
+- [Dart](https://dart.dev/) SDK.
+- Conta em um serviço de autenticação, como [Firebase Authentication](https://firebase.google.com/products/auth).
+
+## Como começar
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/casa-inteligente-app.git
