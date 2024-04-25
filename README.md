@@ -1,4 +1,4 @@
-# Casa Inteligente App
+# Aplicativo Casa Inteligente
 
 ![Logo](https://img.freepik.com/vetores-gratis/aplicativo-para-casa-inteligente_23-2148628096.jpg?w=1380&t=st=1714006889~exp=1714007489~hmac=45a0916df9075faebfaa77535bf0c5c02fe5f617fab9c00a9d5ff5a0e46e5594)
 
