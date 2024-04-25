@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.blue,
         fontFamily: 'RobotoSlab',
         sliderTheme: SliderThemeData(
-          trackHeight: 2.0, // Ajuste a espessura do Slider aqui
+          trackHeight: 2.0,
         ),
       ),
       home: Scaffold(
