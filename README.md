@@ -1,8 +1,8 @@
 # Casa Inteligente App
 
-![Logo](https://img.freepik.com/vetores-gratis/aplicativo-para-casa-inteligente_23-2148628096.jpg?w=1380&t=st=1714006889~exp=1714007489~hmac=45a0916df9075faebfaa77535bf0c5c02fe5f617fab9c00a9d5ff5a0e46e5594)
+<img src="https://img.freepik.com/vetores-gratis/aplicativo-para-casa-inteligente_23-2148628096.jpg?w=1380&t=st=1714006889~exp=1714007489~hmac=45a0916df9075faebfaa77535bf0c5c02fe5f617fab9c00a9d5ff5a0e46e5594" alt="Logo" width="500">
 
-O **Casa Inteligente App** é um aplicativo desenvolvido em Flutter que permite controlar e gerenciar uma casa inteligente, oferecendo uma experiência integrada para usuários que desejam automatizar e otimizar seu ambiente doméstico. O aplicativo é intuitivo e fácil de usar, possibilitando o controle de uma variedade de dispositivos e sistemas domésticos.
+O **App Casa Inteligente** é um aplicativo desenvolvido em Flutter que permite controlar e gerenciar uma casa inteligente, oferecendo uma experiência integrada para usuários que desejam automatizar e otimizar seu ambiente doméstico. O aplicativo é intuitivo e fácil de usar, possibilitando o controle de uma variedade de dispositivos e sistemas domésticos.
 
 ## Funcionalidades Principais
 
@@ -28,3 +28,20 @@ O **Casa Inteligente App** é um aplicativo desenvolvido em Flutter que permite 
 
    ```bash
    git clone https://github.com/seu-usuario/casa-inteligente-app.git
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd casa-inteligente-app
+
+3. Instale as dependências:
+   ```bash
+   flutter pub get
+
+4. Execute o aplicativo
+   ```bash
+   flutter run
+
+
+## Referências
+
+- Mockup consultado em https://br.freepik.com/vetores-gratis/aplicativo-para-casa-inteligente_9470008.htm#fromView=search&page=3&position=22&uuid=12483c9d-1244-4ea6-bec8-a793918b1183
